@@ -1,1 +1,7 @@
-osab-rescue.lib
+*.csv
+*.tsv
+*.xml
+*.bak
+*.swp
+*rescue.lib
+*cache*

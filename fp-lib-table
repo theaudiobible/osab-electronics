@@ -1,3 +1,3 @@
 (fp_lib_table
-  (lib (name OSAB)(type KiCad)(uri ${KIPRJMOD}/osab.pretty)(options "")(descr "OSAB pretty library"))
+  (lib (name OSAB)(type KiCad)(uri ${KIPRJMOD}/libraries/footprints/osab.pretty)(options "")(descr "OSAB pretty library"))
 )

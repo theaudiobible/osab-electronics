@@ -1,0 +1,67 @@
+library/vs10xx.lib is from http://www.kicadlib.org/modules/vs10xx.lib.zip
+library/vs10xx.mod is from http://library.oshec.org/compressed/all.tar.gz
+
+curl -o vs10xx.mod https://searchcode.com/codesearch/raw/16618376/
+curl -O https://raw.githubusercontent.com/karawin/Ka-Radio/master/Hardware/KiCAD/Main/vs10xx.lib
+
+
+Kicad 5 setup on Fedora 29
+==========================
+
+If upgrading from Kicad v4, assuming that you do not want to use v4 any more, then backup and remove ~/.config/kicad.
+
+Clone official KiCad libraries into ~/dev/kicad.libs/OfficialKiCadLibrary from:
+https://github.com/KiCad/kicad-symbols
+https://github.com/KiCad/kicad-footprints
+https://github.com/KiCad/kicad-packages3d
+
+Run KiCad 5 and change the default global libraries to point to these closed official libraries.  Go to:
+Preferences > Configure Paths
+and set as follows (substitute 'user' for your ude ID):
+
+KICAD_SYMBOL_DIR   /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-symbols
+KICAD_TEMPLATE_DIR /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-templates
+KISYS3DMOD         /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-packages3d
+KISYSMOD           /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-footprints
+
+Create a dummy project so that you can set up the library tables for symbols and footprints - sym-lib-table and fp-lib-table:
+File > New > Project
+(select a temp path and file name)
+
+Open the Schematic layout editor. A dialog titled 'Configure Global Symbol Library Table' will pop up.  Select the default:
+Copy default global symbol library table (recommended)
+and click OK.  This will create the file:
+~/.config/kicad/sym-lib-table
+
+Close Eeschema.
+
+Open the PCB layout editor (Pcbnew). A dialog will pop up saying that you have run Pcbnew for the first time - click OK.  The Footprint library table should now exist at:
+~/.config/kicad/fp-lib-table
+
+Another dialog will pop up offering to enable graphics acceleration - it's generally best to enable this.
+
+Close Pcbnew.
+
+Open the OSAB project in KiCad:
+File > Open Project
+Browse to osab/osab-electronics and open osab.pro.
+
+Open osab.sch.
+
+In Eeschema, go to:
+Preferences > Manage Symbol Libraries...
+
+Select the 'Project Specific Libraries' tab.
+
+Click 'Browse Libraries...' and browse to osab/osab-electronics/libraries and select osab.lib.
+Click 'Browse Libraries...' and browse to osab/osab-electronics/libraries and select vs10xx.lib.
+
+Click OK to close the Symbol Libraries page.
+
+
+
+
+
+
+
+

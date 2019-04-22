@@ -1,5 +1,0 @@
-library/vs10xx.lib is from http://www.kicadlib.org/modules/vs10xx.lib.zip
-library/vs10xx.mod is from http://library.oshec.org/compressed/all.tar.gz
-
-curl -o vs10xx.mod https://searchcode.com/codesearch/raw/16618376/
-curl -O https://raw.githubusercontent.com/karawin/Ka-Radio/master/Hardware/KiCAD/Main/vs10xx.lib
