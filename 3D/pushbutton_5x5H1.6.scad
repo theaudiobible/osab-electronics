@@ -1,7 +1,7 @@
 /*
- * 4x4H1.6.scad - 3D Pushbutton Switch for Kicad
+ * 5x5H1.6.scad - 3D Pushbutton Switch for Kicad
  * 
- * Copyright (C) 2015 Theophilus
+ * Copyright (C) 2015-2019 Theophilus
  *
  * osab
  *

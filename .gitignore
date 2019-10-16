@@ -1,7 +1,8 @@
+osab
+*bak
 *.csv
 *.tsv
 *.xml
-*.bak
 *.swp
 *rescue.lib
 *cache*

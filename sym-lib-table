@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name osab)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/osab.lib)(options "")(descr ""))
   (lib (name vs10xx)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/vs10xx.lib)(options "")(descr ""))
+  (lib (name TF-01A)(type Legacy)(uri ${KIPRJMOD}/libraries/symbols/TF-01A.lib)(options "")(descr ""))
 )

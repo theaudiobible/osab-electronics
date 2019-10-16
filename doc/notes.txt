@@ -1,12 +1,45 @@
+Clone osab-electronics git repo
+===============================
+
+export OSAB_DIR=~/dev/osab
+if [[ ! -d ${OSAB_DIR} ]]; then
+  mkdir -p ${OSAB_DIR}
+fi
+cd ${OSAB_DIR}
+if [[ ! -d osab-electronics ]]; then
+  git clone https://github.com/audiobibleplayer/osab-electronics
+fi
+cd osab-electronics
+git pull
+
+
+External symbol + footprint + 3D libraries
+==========================================
+
+VS1000
+------
 library/vs10xx.lib is from http://www.kicadlib.org/modules/vs10xx.lib.zip
-library/vs10xx.mod is from http://library.oshec.org/compressed/all.tar.gz
 
-curl -o vs10xx.mod https://searchcode.com/codesearch/raw/16618376/
-curl -O https://raw.githubusercontent.com/karawin/Ka-Radio/master/Hardware/KiCAD/Main/vs10xx.lib
+curl -o ${OSAB_DIR}/osab-electronics/libraries/symbols/vs10xx.lib https://raw.githubusercontent.com/karawin/Ka-Radio/master/Hardware/KiCAD/Main/vs10xx.lib
+
+TF-01A
+------
+Download LIB_TF-01A.zip from https://componentsearchengine.com/ga/model.php?partID=2371673
+unzip LIB_TF-01A.zip
+cp -av TF-01A/3D/* ${OSAB_DIR}/osab-electronics/3D/
+cp -av TF-01A/KiCad/TF01A.kicad_mod ${OSAB_DIR}/osab-electronics/libraries/footprints/samacsys.pretty/
+cp -av TF-01A/KiCad/TF-01A.lib ${OSAB_DIR}/osab-electronics/libraries/symbols/
+
+TYPE-C-31-M-12
+--------------
+curl -o ${OSAB_DIR}/osab-electronics/3D/TYPE-C-31-M-12.step https://raw.githubusercontent.com/ai03-2725/Type-C.pretty/master/HRO%20%20TYPE-C-31-M-12.step
 
 
-Kicad 5 setup on Fedora 29
-==========================
+Kicad 5 setup in Linux
+======================
+
+Initial Setup
+-------------
 
 If upgrading from Kicad v4, assuming that you do not want to use v4 any more, then backup and remove ~/.config/kicad.
 
@@ -17,7 +50,7 @@ https://github.com/KiCad/kicad-packages3d
 
 Run KiCad 5 and change the default global libraries to point to these closed official libraries.  Go to:
 Preferences > Configure Paths
-and set as follows (substitute 'user' for your ude ID):
+and set as follows (substitute 'user' for your user ID):
 
 KICAD_SYMBOL_DIR   /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-symbols
 KICAD_TEMPLATE_DIR /home/user/dev/kicad.libs/OfficialKiCadLibrary/kicad-templates
@@ -42,6 +75,10 @@ Another dialog will pop up offering to enable graphics acceleration - it's gener
 
 Close Pcbnew.
 
+
+OSAB-specific setup
+-------------------
+
 Open the OSAB project in KiCad:
 File > Open Project
 Browse to osab/osab-electronics and open osab.pro.
@@ -50,18 +87,81 @@ Open osab.sch.
 
 In Eeschema, go to:
 Preferences > Manage Symbol Libraries...
-
 Select the 'Project Specific Libraries' tab.
-
-Click 'Browse Libraries...' and browse to osab/osab-electronics/libraries and select osab.lib.
-Click 'Browse Libraries...' and browse to osab/osab-electronics/libraries and select vs10xx.lib.
-
+Click 'Add existing library to table' and browse to osab/osab-electronics/libraries/symbols and select osab.lib
+Click 'Add existing library to table' and browse to osab/osab-electronics/libraries/symbols and select vs10xx.lib
+Click 'Add existing library to table' and browse to osab/osab-electronics/libraries/symbols and select TF-01A.lib
 Click OK to close the Symbol Libraries page.
 
+In Footprint Editor, go to:
+Preferences > Manage Footprint Libraries...
+Select the 'Project Specific Libraries' tab.
+Click 'Add existing library to table' and browse to osab/osab-electronics/libraries/footprints and select osab.pretty
+ - for 'Description', add "OSAB footprint library"
+Click 'Add existing library to table' and browse to osab/osab-electronics/libraries/footprints and select samacsys.pretty
+ - for 'Description', add "SamacSys footprint library"
+Click OK to close the Footprint Libraries page.
+
+In Footprint Editor, go to:
+Preferences > Configure Paths...
+Under '3D Search Paths', click + and enter the following details:
+Alias: KIPRJ3DMOD
+Path: /home/user/dev/osab/osab-electronics/3D  (substitute 'user' appropriately)
+Description: Project-specific 3D models
+Click OK to close the Configure Paths page.
+
+In Footprint Editor, go to:
+Navigate to samacsys > TF01A
+Double-click TF01A
+Click Footprint properties
+Select 3D Settings tab
+Delete the existing 3D Model (click trash-can icon)
+Click the + icon and add the following: ${KIPRJMOD}/3D/TF-01A.stp
+Click OK
+
+
+Save changes
 
 
 
+Customising Footprints
+======================
+Change pin widths of TCS7191 from 0.5 mm to 0.4 mm to pass DRC.
+Move X coordinate of pin MP1 of TF-01A from -7.34 mm to -7.44 mm to pass DRC.
 
+
+Board Setup
+===========
+In Pcbnew, go to File > Board Setup... > Design Rules:
+Allow blind/buried vias: uncheck
+Allow micro vias (uVias) : uncheck
+Require courtyard definitions in footprints: uncheck
+Prohibit overlapping courtyards: check
+Minimum track width: 0.2 mm
+Minimum via diameter: 0.4 mm
+Minimum via drill: 0.3 mm
+Minimum uVia diameter: 0.2 mm
+Minimum uVia drill: 0.1 mm
+Minimum hole to hole: 0.25 mm
+
+Design Rules > Net Classes:
+Name    Clearance   Track Width   Via Size  Via Drill   uVia Size   uVia Drill  dPair Width   dPair Gap
+Default 0.2 mm      0.25 mm       0.8 mm    0.4 mm      0.3 mm      0.1 mm      0.2 mm        0.25 mm
+Power   0.2 mm      0.40 mm       0.8 mm    0.4 mm      0.3 mm      0.1 mm      0.2 mm        0.25 mm
+
+Net Class Memberships (other than Default)
+Net       Net Class
+AVDD      Power
+GND       Power
+GNDA      Power
+VCC       Power
+VDD       Power
+
+
+
+Howtos
+======
+To add new symbol fields: Preferences > Preferences > Eeschema > Field Name Templates > +
 
 
 
