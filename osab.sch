@@ -985,20 +985,6 @@ F 6 "ARG05FTC1002" H 2300 3450 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R R8
-U 1 1 580953DF
-P 2500 3450
-F 0 "R8" V 2580 3450 50  0000 C CNN
-F 1 "10k" V 2500 3450 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 3450 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261818_Viking-Tech-ARG05FTC1002_C217770.pdf" H 2500 3450 50  0001 C CNN
-F 4 "Included in KiCad" H 2500 3450 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC1002_C217770.html" H 2500 3450 50  0001 C CNN "Link"
-F 6 "ARG05FTC1002" H 2500 3450 50  0001 C CNN "MPN"
-	1    2500 3450
-	1    0    0    -1  
-$EndComp
-$Comp
 L Device:R R12
 U 1 1 5809DA4F
 P 2650 4000
@@ -1584,21 +1570,11 @@ Wire Wire Line
 Wire Wire Line
 	2900 3300 2900 3100
 Wire Wire Line
-	3100 3400 2850 3400
-Wire Wire Line
-	2850 3400 2850 3200
-Wire Wire Line
-	3100 3500 2800 3500
-Wire Wire Line
-	3050 2800 1500 2800
-Wire Wire Line
 	3000 2900 1700 2900
 Wire Wire Line
 	2950 3000 1900 3000
 Wire Wire Line
 	2900 3100 2100 3100
-Wire Wire Line
-	2850 3200 2300 3200
 Wire Wire Line
 	850  1950 850  2100
 Wire Wire Line
@@ -1612,17 +1588,9 @@ Wire Wire Line
 Wire Wire Line
 	1750 4850 1800 4850
 Wire Wire Line
-	2800 3500 2800 3300
-Wire Wire Line
-	2800 3300 2500 3300
-Wire Wire Line
 	1100 3400 1100 2600
 Wire Wire Line
 	1750 4950 2100 4950
-Wire Wire Line
-	2900 4950 2900 3800
-Wire Wire Line
-	2900 3800 3100 3800
 Wire Wire Line
 	4050 1950 3400 1950
 Wire Wire Line
@@ -1634,7 +1602,6 @@ Connection ~ 3100 4700
 Connection ~ 3100 4800
 Wire Wire Line
 	2100 5100 2100 4950
-Connection ~ 2100 4950
 Wire Wire Line
 	5150 2650 5300 2650
 Wire Wire Line
@@ -2081,8 +2048,6 @@ Wire Wire Line
 Wire Wire Line
 	3100 4800 3100 4900
 Wire Wire Line
-	2100 4950 2900 4950
-Wire Wire Line
 	1550 5900 1650 5900
 Wire Wire Line
 	2600 5900 2700 5900
@@ -2444,22 +2409,15 @@ $EndComp
 Wire Wire Line
 	1300 2550 1300 2700
 Wire Wire Line
-	1500 2550 1500 2800
-Wire Wire Line
 	1700 2550 1700 2900
 Wire Wire Line
 	1900 2550 1900 3000
 Wire Wire Line
 	2100 2550 2100 3100
-Wire Wire Line
-	2300 2550 2300 3200
-Wire Wire Line
-	2500 2550 2500 3300
 Connection ~ 1700 1450
 Wire Wire Line
 	1700 1450 1900 1450
 Connection ~ 1900 1450
-Connection ~ 2100 1450
 Wire Wire Line
 	4200 1650 4300 1650
 Wire Wire Line
@@ -2836,10 +2794,6 @@ F 6 "CR-05JA7----0R" H 2500 3800 50  0001 C CNN "MPN"
 	1    2500 3800
 	0    1    1    0   
 $EndComp
-Connection ~ 2500 3300
-Wire Wire Line
-	2300 3300 2300 3200
-Connection ~ 2300 3200
 Wire Wire Line
 	2100 3300 2100 3100
 Connection ~ 2100 3100
@@ -2850,9 +2804,6 @@ Wire Wire Line
 	1700 3300 1700 2900
 Connection ~ 1700 2900
 Wire Wire Line
-	1500 3300 1500 2800
-Connection ~ 1500 2800
-Wire Wire Line
 	1300 3300 1300 2700
 Connection ~ 1300 2700
 Connection ~ 1300 3700
@@ -2862,10 +2813,6 @@ Wire Wire Line
 	1100 3850 1450 3850
 Wire Wire Line
 	1450 3850 1450 3800
-Wire Wire Line
-	2650 3800 2650 3600
-Wire Wire Line
-	2650 3600 3100 3600
 $Comp
 L Device:R R60
 U 1 1 5E28D622
@@ -2883,86 +2830,86 @@ $EndComp
 $Comp
 L Device:R R64
 U 1 1 5E2AF4F2
-P -850 2800
-F 0 "R64" V -770 2800 50  0000 C CNN
-F 1 "0" V -850 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -920 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -850 2800 50  0001 C CNN
-F 4 "Included in KiCad" H -850 2800 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -850 2800 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -850 2800 50  0001 C CNN "MPN"
-	1    -850 2800
-	1    0    0    -1  
+P 2950 3400
+F 0 "R64" V 3030 3400 50  0000 C CNN
+F 1 "0" V 2950 3400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2880 3400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2950 3400 50  0001 C CNN
+F 4 "Included in KiCad" H 2950 3400 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2950 3400 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2950 3400 50  0001 C CNN "MPN"
+	1    2950 3400
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R68
 U 1 1 5E2D1376
-P -700 2800
-F 0 "R68" V -620 2800 50  0000 C CNN
-F 1 "0" V -700 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -770 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -700 2800 50  0001 C CNN
-F 4 "Included in KiCad" H -700 2800 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -700 2800 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -700 2800 50  0001 C CNN "MPN"
-	1    -700 2800
+P 2800 3600
+F 0 "R68" V 2880 3600 50  0000 C CNN
+F 1 "0" V 2800 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2730 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2800 3600 50  0001 C CNN
+F 4 "Included in KiCad" H 2800 3600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2800 3600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2800 3600 50  0001 C CNN "MPN"
+	1    2800 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R72
 U 1 1 5E2F3236
-P -550 2800
-F 0 "R72" V -470 2800 50  0000 C CNN
-F 1 "0" V -550 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -620 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -550 2800 50  0001 C CNN
-F 4 "Included in KiCad" H -550 2800 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -550 2800 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -550 2800 50  0001 C CNN "MPN"
-	1    -550 2800
+P 2900 3600
+F 0 "R72" V 2980 3600 50  0000 C CNN
+F 1 "0" V 2900 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2830 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2900 3600 50  0001 C CNN
+F 4 "Included in KiCad" H 2900 3600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2900 3600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2900 3600 50  0001 C CNN "MPN"
+	1    2900 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R76
 U 1 1 5E315052
-P -400 2800
-F 0 "R76" V -320 2800 50  0000 C CNN
-F 1 "0" V -400 2800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -470 2800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -400 2800 50  0001 C CNN
-F 4 "Included in KiCad" H -400 2800 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -400 2800 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -400 2800 50  0001 C CNN "MPN"
-	1    -400 2800
+P 3000 3600
+F 0 "R76" V 3080 3600 50  0000 C CNN
+F 1 "0" V 3000 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2930 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 3000 3600 50  0001 C CNN
+F 4 "Included in KiCad" H 3000 3600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 3000 3600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 3000 3600 50  0001 C CNN "MPN"
+	1    3000 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R59
 U 1 1 5E4F08FD
-P -1050 2300
-F 0 "R59" V -970 2300 50  0000 C CNN
-F 1 "0" V -1050 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -1120 2300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -1050 2300 50  0001 C CNN
-F 4 "Included in KiCad" H -1050 2300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -1050 2300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -1050 2300 50  0001 C CNN "MPN"
-	1    -1050 2300
-	1    0    0    -1  
+P 2100 1900
+F 0 "R59" V 2180 1900 50  0000 C CNN
+F 1 "0" V 2100 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 1900 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2100 1900 50  0001 C CNN
+F 4 "Included in KiCad" H 2100 1900 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2100 1900 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2100 1900 50  0001 C CNN "MPN"
+	1    2100 1900
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R63
 U 1 1 5E4F0906
-P -850 2300
-F 0 "R63" V -770 2300 50  0000 C CNN
-F 1 "0" V -850 2300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -920 2300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -850 2300 50  0001 C CNN
-F 4 "Included in KiCad" H -850 2300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -850 2300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -850 2300 50  0001 C CNN "MPN"
-	1    -850 2300
-	1    0    0    -1  
+P 2500 3200
+F 0 "R63" V 2580 3200 50  0000 C CNN
+F 1 "0" V 2500 3200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2500 3200 50  0001 C CNN
+F 4 "Included in KiCad" H 2500 3200 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2500 3200 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2500 3200 50  0001 C CNN "MPN"
+	1    2500 3200
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R67
@@ -3009,30 +2956,30 @@ $EndComp
 $Comp
 L Device:R R58
 U 1 1 5E522E4C
-P -450 900
-F 0 "R58" V -370 900 50  0000 C CNN
-F 1 "0" V -450 900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -520 900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -450 900 50  0001 C CNN
-F 4 "Included in KiCad" H -450 900 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -450 900 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -450 900 50  0001 C CNN "MPN"
-	1    -450 900 
-	1    0    0    -1  
+P 2100 1750
+F 0 "R58" V 2180 1750 50  0000 C CNN
+F 1 "0" V 2100 1750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 1750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2100 1750 50  0001 C CNN
+F 4 "Included in KiCad" H 2100 1750 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2100 1750 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2100 1750 50  0001 C CNN "MPN"
+	1    2100 1750
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R62
 U 1 1 5E522E55
-P -850 1800
-F 0 "R62" V -770 1800 50  0000 C CNN
-F 1 "0" V -850 1800 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -920 1800 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -850 1800 50  0001 C CNN
-F 4 "Included in KiCad" H -850 1800 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -850 1800 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -850 1800 50  0001 C CNN "MPN"
-	1    -850 1800
-	1    0    0    -1  
+P 2750 2800
+F 0 "R62" V 2830 2800 50  0000 C CNN
+F 1 "0" V 2750 2800 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 2800 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2750 2800 50  0001 C CNN
+F 4 "Included in KiCad" H 2750 2800 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2750 2800 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2750 2800 50  0001 C CNN "MPN"
+	1    2750 2800
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R66
@@ -3079,57 +3026,57 @@ $EndComp
 $Comp
 L Device:R R61
 U 1 1 5E522E82
-P -850 1300
-F 0 "R61" V -770 1300 50  0000 C CNN
-F 1 "0" V -850 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -920 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -850 1300 50  0001 C CNN
-F 4 "Included in KiCad" H -850 1300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -850 1300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -850 1300 50  0001 C CNN "MPN"
-	1    -850 1300
-	1    0    0    -1  
+P 2100 2050
+F 0 "R61" V 2180 2050 50  0000 C CNN
+F 1 "0" V 2100 2050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 2050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2100 2050 50  0001 C CNN
+F 4 "Included in KiCad" H 2100 2050 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2100 2050 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2100 2050 50  0001 C CNN "MPN"
+	1    2100 2050
+	0    1    1    0   
 $EndComp
 $Comp
 L Device:R R65
 U 1 1 5E522E8B
-P -700 1300
-F 0 "R65" V -620 1300 50  0000 C CNN
-F 1 "0" V -700 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -770 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -700 1300 50  0001 C CNN
-F 4 "Included in KiCad" H -700 1300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -700 1300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -700 1300 50  0001 C CNN "MPN"
-	1    -700 1300
-	1    0    0    -1  
+P 2750 4950
+F 0 "R65" V 2830 4950 50  0000 C CNN
+F 1 "0" V 2750 4950 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2680 4950 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2750 4950 50  0001 C CNN
+F 4 "Included in KiCad" H 2750 4950 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2750 4950 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2750 4950 50  0001 C CNN "MPN"
+	1    2750 4950
+	0    -1   -1   0   
 $EndComp
 $Comp
 L Device:R R69
 U 1 1 5E522E94
-P -550 1300
-F 0 "R69" V -470 1300 50  0000 C CNN
-F 1 "0" V -550 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -620 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -550 1300 50  0001 C CNN
-F 4 "Included in KiCad" H -550 1300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -550 1300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -550 1300 50  0001 C CNN "MPN"
-	1    -550 1300
+P 2600 3600
+F 0 "R69" V 2680 3600 50  0000 C CNN
+F 1 "0" V 2600 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2530 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2600 3600 50  0001 C CNN
+F 4 "Included in KiCad" H 2600 3600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2600 3600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2600 3600 50  0001 C CNN "MPN"
+	1    2600 3600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Device:R R73
 U 1 1 5E522E9D
-P -400 1300
-F 0 "R73" V -320 1300 50  0000 C CNN
-F 1 "0" V -400 1300 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -470 1300 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -400 1300 50  0001 C CNN
-F 4 "Included in KiCad" H -400 1300 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -400 1300 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -400 1300 50  0001 C CNN "MPN"
-	1    -400 1300
+P 2700 3600
+F 0 "R73" V 2780 3600 50  0000 C CNN
+F 1 "0" V 2700 3600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2630 3600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2700 3600 50  0001 C CNN
+F 4 "Included in KiCad" H 2700 3600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2700 3600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2700 3600 50  0001 C CNN "MPN"
+	1    2700 3600
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
@@ -3142,28 +3089,22 @@ Wire Wire Line
 	1900 1450 2000 1450
 Connection ~ 2000 1450
 Wire Wire Line
-	2000 1450 2100 1450
-Wire Wire Line
-	2500 1450 2500 2150
-Wire Wire Line
-	2100 1450 2100 2150
-Wire Wire Line
 	1900 1450 1900 2150
 Wire Wire Line
 	1300 1450 1300 2150
 $Comp
 L Device:R R57
 U 1 1 5E522E79
-P -650 900
-F 0 "R57" V -570 900 50  0000 C CNN
-F 1 "0" V -650 900 50  0000 C CNN
-F 2 "Resistor_SMD:R_0805_2012Metric" V -720 900 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H -650 900 50  0001 C CNN
-F 4 "Included in KiCad" H -650 900 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H -650 900 50  0001 C CNN "Link"
-F 6 "CR-05JA7----0R" H -650 900 50  0001 C CNN "MPN"
-	1    -650 900 
-	1    0    0    -1  
+P 2100 1600
+F 0 "R57" V 2180 1600 50  0000 C CNN
+F 1 "0" V 2100 1600 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2030 1600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/2001071207_Viking-Tech-CR-05JA7-0R_C465486.pdf" H 2100 1600 50  0001 C CNN
+F 4 "Included in KiCad" H 2100 1600 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-CR-05JA7-0R_C465486.html" H 2100 1600 50  0001 C CNN "Link"
+F 6 "CR-05JA7----0R" H 2100 1600 50  0001 C CNN "MPN"
+	1    2100 1600
+	0    1    1    0   
 $EndComp
 Wire Wire Line
 	1300 1450 1500 1450
@@ -3172,8 +3113,6 @@ Wire Wire Line
 	1500 1450 1700 1450
 Wire Wire Line
 	1500 1450 1500 2150
-Wire Wire Line
-	2100 1450 2300 1450
 Connection ~ 2300 1450
 Wire Wire Line
 	2300 1450 2500 1450
@@ -3181,4 +3120,101 @@ Wire Wire Line
 	2300 1450 2300 2150
 Wire Wire Line
 	1700 1450 1700 2150
+Wire Wire Line
+	7650 4800 7650 4400
+Wire Wire Line
+	1950 1600 1950 1750
+Wire Wire Line
+	2250 1750 2250 1900
+Wire Wire Line
+	1950 1900 1950 2050
+Wire Wire Line
+	2500 2150 2500 1450
+Wire Wire Line
+	2000 1450 2100 1450
+Wire Wire Line
+	2100 2150 2250 2150
+Wire Wire Line
+	2250 2150 2250 2050
+Wire Wire Line
+	2250 1600 2250 1500
+Wire Wire Line
+	2250 1500 2100 1500
+Wire Wire Line
+	2100 1500 2100 1450
+Connection ~ 2100 1450
+Wire Wire Line
+	2100 1450 2300 1450
+Wire Wire Line
+	1500 2550 1500 2800
+Wire Wire Line
+	2900 2800 3050 2800
+Wire Wire Line
+	2600 2800 1500 2800
+Connection ~ 1500 2800
+Wire Wire Line
+	1500 2800 1500 3300
+Wire Wire Line
+	2300 2550 2300 3200
+Wire Wire Line
+	2800 3400 2800 3200
+Wire Wire Line
+	2800 3200 2650 3200
+Wire Wire Line
+	2350 3200 2300 3200
+Connection ~ 2300 3200
+Wire Wire Line
+	2300 3200 2300 3300
+Wire Wire Line
+	2600 4950 2100 4950
+Connection ~ 2100 4950
+Wire Wire Line
+	2900 4950 2900 3850
+Wire Wire Line
+	2900 3850 3100 3850
+Wire Wire Line
+	3100 3850 3100 3800
+Wire Wire Line
+	3100 3600 3100 3750
+Wire Wire Line
+	3100 3750 3050 3750
+Wire Wire Line
+	3050 3750 3050 3800
+Wire Wire Line
+	3050 3800 2650 3800
+Wire Wire Line
+	3100 3500 3100 3450
+Wire Wire Line
+	3100 3450 3000 3450
+Wire Wire Line
+	3000 3750 2900 3750
+Wire Wire Line
+	2900 3450 2800 3450
+Wire Wire Line
+	2800 3750 2700 3750
+Wire Wire Line
+	2700 3450 2600 3450
+Wire Wire Line
+	2500 2550 2500 3300
+Wire Wire Line
+	2500 3300 2550 3300
+Wire Wire Line
+	2550 3300 2550 3750
+Wire Wire Line
+	2550 3750 2600 3750
+$Comp
+L Device:R R8
+U 1 1 580953DF
+P 2500 3450
+F 0 "R8" V 2580 3450 50  0000 C CNN
+F 1 "10k" V 2500 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 3450 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/szlcsc/1810261818_Viking-Tech-ARG05FTC1002_C217770.pdf" H 2500 3450 50  0001 C CNN
+F 4 "Included in KiCad" H 2500 3450 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC1002_C217770.html" H 2500 3450 50  0001 C CNN "Link"
+F 6 "ARG05FTC1002" H 2500 3450 50  0001 C CNN "MPN"
+	1    2500 3450
+	1    0    0    -1  
+$EndComp
+Connection ~ 2500 3300
 $EndSCHEMATC
