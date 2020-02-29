@@ -5,7 +5,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OSAB - the Open Source Audio Bible player - single-sided"
-Date "2020-02-18"
+Date "2020-02-29"
 Rev "5"
 Comp "audiobibleplayer.org"
 Comment1 "Copyright (C) 2011-2020 Theophilus"
@@ -1574,7 +1574,7 @@ Wire Wire Line
 Wire Wire Line
 	4050 1950 3400 1950
 Wire Wire Line
-	3100 5100 3100 5200
+	3100 5100 3100 5150
 Connection ~ 3100 5200
 Wire Wire Line
 	3100 4600 3100 4700
@@ -2017,7 +2017,7 @@ Wire Wire Line
 Wire Wire Line
 	3100 5200 3100 5300
 Wire Wire Line
-	3100 4700 3100 4800
+	3100 4700 3100 4750
 Wire Wire Line
 	3100 4800 3100 4900
 Wire Wire Line
@@ -3647,4 +3647,16 @@ Wire Wire Line
 	50   3700 50   3800
 Wire Wire Line
 	350  3800 350  3900
+Wire Wire Line
+	3100 4750 3200 4750
+Wire Wire Line
+	3200 4750 3200 5150
+Wire Wire Line
+	3200 5150 3100 5150
+Connection ~ 3100 4750
+Wire Wire Line
+	3100 4750 3100 4800
+Connection ~ 3100 5150
+Wire Wire Line
+	3100 5150 3100 5200
 $EndSCHEMATC
