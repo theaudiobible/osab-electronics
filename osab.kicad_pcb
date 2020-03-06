@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 8)
+    (drawings 12)
     (tracks 1105)
     (zones 0)
     (modules 152)
@@ -6379,6 +6379,18 @@
     )
   )
 
+  (gr_text audiobibleplayer.org (at 127.7 71.9) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text player (at 127.7 66.5) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "Open Source Audio Bible" (at 127.35 65.15) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (gr_text "OSAB ssb v1.0" (at 127.6 69.25) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
   (gr_line (start 175 147) (end 175 127) (layer Edge.Cuts) (width 0.1) (tstamp 5E19E3F9))
   (gr_line (start 115 127) (end 115 147) (layer Edge.Cuts) (width 0.1) (tstamp 5E19F1A2))
   (gr_line (start 115 127) (end 115 107) (layer Edge.Cuts) (width 0.1) (tstamp 5E19F19F))
