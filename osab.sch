@@ -7,7 +7,7 @@ Sheet 1 1
 Title "OSAB - the Open Source Audio Bible player - single-sided"
 Date "2020-02-29"
 Rev "5"
-Comp "audiobibleplayer.org"
+Comp "theaudiobible.org"
 Comment1 "Copyright (C) 2011-2020 Theophilus"
 Comment2 "Licence: See LICENCE file in osab-electronics project directory"
 Comment3 ""

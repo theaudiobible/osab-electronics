@@ -6401,7 +6401,7 @@
     )
   )
 
-  (gr_text audiobibleplayer.org (at 127.7 71.9) (layer F.SilkS)
+  (gr_text theaudiobible.org (at 127.7 71.9) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )
   (gr_text player (at 127.7 66.5) (layer F.SilkS)

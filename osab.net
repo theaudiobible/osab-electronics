@@ -6,7 +6,7 @@
     (sheet (number 1) (name /) (tstamps /)
       (title_block
         (title "OSAB - the Open Source Audio Bible player - single-sided")
-        (company audiobibleplayer.org)
+        (company theaudiobible.org)
         (rev 5)
         (date 2020-02-29)
         (source osab.sch)
