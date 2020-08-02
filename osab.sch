@@ -5,10 +5,10 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "OSAB - the Open Source Audio Bible player"
-Date "2020-02-15"
-Rev "4"
-Comp "audiobibleplayer.org"
-Comment1 "Copyright (C) 2011-2019 Theophilus"
+Date "2020-08-02"
+Rev "6"
+Comp "theaudiobible.org"
+Comment1 "Copyright (C) 2011-2020 Theophilus"
 Comment2 "Licence: See LICENCE file in osab-electronics project directory"
 Comment3 ""
 Comment4 ""
