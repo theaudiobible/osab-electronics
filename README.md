@@ -10,7 +10,7 @@ The intention is to share firmware, software, schematics, PCB layout and enclosu
 This is the repository for the EDA files for OSAB.
 
 ### Dependencies
-- The schematic and PCB design tool is [KiCad](http://kicad-pcb.org/)
+- The schematic and PCB design tool is [KiCad](http://kicad.org/)
 - [FreeCAD](http://freecadweb.org/) is used to convert the STEP file to STL.
 
 ### Generate STL file
