@@ -2348,9 +2348,9 @@ P 2500 1100
 F 0 "C1" H 2525 1200 50  0000 L CNN
 F 1 "22p" H 2350 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 2538 950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810271113_Samsung-Electro-Mechanics-CL21C220JBANNNC_C1804.pdf" H 2500 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810121815_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.pdf" H 2500 1100 50  0001 C CNN
 F 4 "Included in KiCad" H 2500 1100 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21C220JBANNNC_22pF-220-5-50V_C1804.html" H 2500 1100 50  0001 C CNN "Link"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.html" H 2500 1100 50  0001 C CNN "Link"
 F 6 "CL21C220JBANNNC" H 2500 1100 50  0001 C CNN "MPN"
 	1    2500 1100
 	1    0    0    -1  
@@ -2362,9 +2362,9 @@ P 3000 1100
 F 0 "C2" H 2850 1200 50  0000 L CNN
 F 1 "22p" H 3000 1200 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0805_2012Metric" H 3038 950 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810271113_Samsung-Electro-Mechanics-CL21C220JBANNNC_C1804.pdf" H 3000 1100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810121815_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.pdf" H 3000 1100 50  0001 C CNN
 F 4 "Included in KiCad" H 3000 1100 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21C220JBANNNC_22pF-220-5-50V_C1804.html" H 3000 1100 50  0001 C CNN "Link"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10C220JB8NNNC_C1653.html" H 3000 1100 50  0001 C CNN "Link"
 F 6 "CL21C220JBANNNC" H 3000 1100 50  0001 C CNN "MPN"
 	1    3000 1100
 	1    0    0    -1  
