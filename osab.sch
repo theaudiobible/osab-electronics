@@ -1173,10 +1173,10 @@ P 8700 3650
 F 0 "C22" H 8725 3750 50  0000 L CNN
 F 1 "3n3 X7R" H 8550 3550 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 8738 3500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810181636_CCTC-TCC0805X7R332K500DT_C282760.pdf" H 8700 3650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810261513_Samsung-Electro-Mechanics-CL10B332KB8NNNC_C1613.pdf" H 8700 3650 50  0001 C CNN
 F 4 "Included in KiCad" H 8700 3650 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R332K500DT_C282760.html" H 8700 3650 50  0001 C CNN "Link"
-F 6 "TCC0805X7R332K500DT" H 8700 3650 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B332KB8NNNC_C1613.html" H 8700 3650 50  0001 C CNN "Link"
+F 6 "CL10B332KB8NNNC" H 8700 3650 50  0001 C CNN "MPN"
 	1    8700 3650
 	1    0    0    -1  
 $EndComp
