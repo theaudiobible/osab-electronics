@@ -1369,10 +1369,10 @@ P 7650 4000
 F 0 "C20" H 7675 4100 50  0000 L CNN
 F 1 "10n X7R" H 7500 3900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7688 3850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811122017_Samsung-Electro-Mechanics-CL21B103KBCNNNC_C84715.pdf" H 7650 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL10B103KB8NNNC_C1589.pdf" H 7650 4000 50  0001 C CNN
 F 4 "Included in KiCad" H 7650 4000 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B103KBCNNNC_10nF-103-10-50V_C84715.html" H 7650 4000 50  0001 C CNN "Link"
-F 6 "CL21B103KBCNNNC" H 7650 4000 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B103KB8NNNC_C1589.html" H 7650 4000 50  0001 C CNN "Link"
+F 6 "CL10B103KB8NNNC" H 7650 4000 50  0001 C CNN "MPN"
 	1    7650 4000
 	1    0    0    -1  
 $EndComp
@@ -1383,10 +1383,10 @@ P 7850 4000
 F 0 "C21" H 7875 4100 50  0000 L CNN
 F 1 "10n X7R" H 7850 3900 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 7888 3850 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811122017_Samsung-Electro-Mechanics-CL21B103KBCNNNC_C84715.pdf" H 7850 4000 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810191222_Samsung-Electro-Mechanics-CL10B103KB8NNNC_C1589.pdf" H 7850 4000 50  0001 C CNN
 F 4 "Included in KiCad" H 7850 4000 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_SAMSUNG_CL21B103KBCNNNC_10nF-103-10-50V_C84715.html" H 7850 4000 50  0001 C CNN "Link"
-F 6 "CL21B103KBCNNNC" H 7850 4000 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B103KB8NNNC_C1589.html" H 7850 4000 50  0001 C CNN "Link"
+F 6 "CL10B103KB8NNNC" H 7850 4000 50  0001 C CNN "MPN"
 	1    7850 4000
 	1    0    0    -1  
 $EndComp
