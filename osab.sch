@@ -753,10 +753,10 @@ P 6450 2750
 F 0 "C16" H 6475 2850 50  0000 L CNN
 F 1 "100n X7R" H 6250 2650 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6488 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 6450 2750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 6450 2750 50  0001 C CNN
 F 4 "Included in KiCad" H 6450 2750 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 6450 2750 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 6450 2750 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 6450 2750 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 6450 2750 50  0001 C CNN "MPN"
 	1    6450 2750
 	1    0    0    -1  
 $EndComp
@@ -767,10 +767,10 @@ P 6200 2750
 F 0 "C15" H 6225 2850 50  0000 L CNN
 F 1 "100n X7R" H 6000 2950 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6238 2600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 6200 2750 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 6200 2750 50  0001 C CNN
 F 4 "Included in KiCad" H 6200 2750 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 6200 2750 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 6200 2750 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 6200 2750 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 6200 2750 50  0001 C CNN "MPN"
 	1    6200 2750
 	1    0    0    -1  
 $EndComp
@@ -1075,10 +1075,10 @@ P 5150 5500
 F 0 "C6" H 5175 5600 50  0000 L CNN
 F 1 "100n X7R" H 4950 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5188 5350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 5150 5500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 5150 5500 50  0001 C CNN
 F 4 "Included in KiCad" H 5150 5500 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 5150 5500 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 5150 5500 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 5150 5500 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 5150 5500 50  0001 C CNN "MPN"
 	1    5150 5500
 	1    0    0    -1  
 $EndComp
@@ -1089,10 +1089,10 @@ P 5400 5500
 F 0 "C8" H 5425 5600 50  0000 L CNN
 F 1 "100n X7R" H 5450 5400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5438 5350 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 5400 5500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 5400 5500 50  0001 C CNN
 F 4 "Included in KiCad" H 5400 5500 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 5400 5500 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 5400 5500 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 5400 5500 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 5400 5500 50  0001 C CNN "MPN"
 	1    5400 5500
 	1    0    0    -1  
 $EndComp
@@ -1103,10 +1103,10 @@ P 5650 5150
 F 0 "C10" H 5675 5250 50  0000 L CNN
 F 1 "100n X7R" H 5450 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5688 5000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 5650 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 5650 5150 50  0001 C CNN
 F 4 "Included in KiCad" H 5650 5150 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 5650 5150 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 5650 5150 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 5650 5150 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 5650 5150 50  0001 C CNN "MPN"
 	1    5650 5150
 	1    0    0    -1  
 $EndComp
@@ -1117,10 +1117,10 @@ P 5900 5150
 F 0 "C12" H 5925 5250 50  0000 L CNN
 F 1 "100n X7R" H 5700 5050 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5938 5000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 5900 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 5900 5150 50  0001 C CNN
 F 4 "Included in KiCad" H 5900 5150 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 5900 5150 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 5900 5150 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 5900 5150 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 5900 5150 50  0001 C CNN "MPN"
 	1    5900 5150
 	1    0    0    -1  
 $EndComp
@@ -1131,10 +1131,10 @@ P 6150 5150
 F 0 "C14" H 6175 5250 50  0000 L CNN
 F 1 "100n X7R" H 5950 5000 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 6188 5000 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261827_CCTC-TCC0805X7R104K500DT_C282732.pdf" H 6150 5150 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811021431_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.pdf" H 6150 5150 50  0001 C CNN
 F 4 "Included in KiCad" H 6150 5150 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_CCTC-TCC0805X7R104K500DT_C282732.html" H 6150 5150 50  0001 C CNN "Link"
-F 6 "TCC0805X7R104K500DT" H 6150 5150 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Multilayer-Ceramic-Capacitors-MLCC-SMD-SMT_Samsung-Electro-Mechanics-CL10B104KB8NNNC_C1591.html" H 6150 5150 50  0001 C CNN "Link"
+F 6 "CL10B104KB8NNNC" H 6150 5150 50  0001 C CNN "MPN"
 	1    6150 5150
 	1    0    0    -1  
 $EndComp
