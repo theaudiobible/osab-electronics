@@ -879,10 +879,10 @@ P 2750 1650
 F 0 "R9" V 2800 1800 50  0000 C CNN
 F 1 "1m" V 2750 1650 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 2680 1650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261826_Viking-Tech-ARG05FTC1004_C218408.pdf" H 2750 1650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1912111437_Viking-Tech-AR03FTC1004_C234360.pdf" H 2750 1650 50  0001 C CNN
 F 4 "Included in KiCad" H 2750 1650 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC1004_C218408.html" H 2750 1650 50  0001 C CNN "Link"
-F 6 "ARG05FTC1004" H 2750 1650 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-AR03FTC1004_C234360.html" H 2750 1650 50  0001 C CNN "Link"
+F 6 "AR03FTC1004" H 2750 1650 50  0001 C CNN "MPN"
 	1    2750 1650
 	0    1    1    0   
 $EndComp
