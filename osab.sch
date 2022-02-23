@@ -2006,10 +2006,10 @@ P 7450 4500
 F 0 "R37" V 7550 4450 50  0000 C CNN
 F 1 "100" V 7450 4500 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7380 4500 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261818_Viking-Tech-ARG05FTC1000_C217766.pdf" H 7450 4500 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811091620_Viking-Tech-ARG03FTC1000_C217683.pdf" H 7450 4500 50  0001 C CNN
 F 4 "Included in KiCad" H 7450 4500 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC1000_C217766.html" H 7450 4500 50  0001 C CNN "Link"
-F 6 "ARG05FTC1000" H 7450 4500 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG03FTC1000_C217683.html" H 7450 4500 50  0001 C CNN "Link"
+F 6 "ARG03FTC1000" H 7450 4500 50  0001 C CNN "MPN"
 	1    7450 4500
 	0    1    1    0   
 $EndComp
@@ -2020,10 +2020,10 @@ P 7200 4400
 F 0 "R36" V 7150 4600 50  0000 C CNN
 F 1 "100" V 7200 4400 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 7130 4400 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261818_Viking-Tech-ARG05FTC1000_C217766.pdf" H 7200 4400 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811091620_Viking-Tech-ARG03FTC1000_C217683.pdf" H 7200 4400 50  0001 C CNN
 F 4 "Included in KiCad" H 7200 4400 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC1000_C217766.html" H 7200 4400 50  0001 C CNN "Link"
-F 6 "ARG05FTC1000" H 7200 4400 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG03FTC1000_C217683.html" H 7200 4400 50  0001 C CNN "Link"
+F 6 "ARG03FTC1000" H 7200 4400 50  0001 C CNN "MPN"
 	1    7200 4400
 	0    1    1    0   
 $EndComp
