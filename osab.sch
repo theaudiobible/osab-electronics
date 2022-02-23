@@ -1453,10 +1453,10 @@ P 9950 5100
 F 0 "R21" V 10030 5100 50  0000 C CNN
 F 1 "5k1 1%" V 9950 5200 50  0000 C CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" V 9880 5100 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1810261825_Viking-Tech-ARG05FTC5101_C218638.pdf" H 9950 5100 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1811091612_Viking-Tech-ARG03FTC5101_C218090.pdf" H 9950 5100 50  0001 C CNN
 F 4 "Included in KiCad" H 9950 5100 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Others_Viking-Tech-ARG05FTC5101_C218638.html" H 9950 5100 50  0001 C CNN "Link"
-F 6 "ARG05FTC5101" H 9950 5100 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Chip-Resistor-Surface-Mount_Viking-Tech-ARG03FTC5101_C218090.html" H 9950 5100 50  0001 C CNN "Link"
+F 6 "ARG03FTC5101" H 9950 5100 50  0001 C CNN "MPN"
 	1    9950 5100
 	1    0    0    -1  
 $EndComp
