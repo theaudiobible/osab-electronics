@@ -499,16 +499,16 @@ F 3 "" H 5650 3400 60  0000 C CNN
 	0    -1   -1   0   
 $EndComp
 $Comp
-L osab:25LC640A U3
+L osab:CAT25640 U3
 U 1 1 54C921E7
 P 6100 3700
 F 0 "U3" H 5900 3700 60  0000 C CNN
-F 1 "25LC640A" H 6100 3200 60  0000 C CNN
+F 1 "CAT25640" H 6100 3200 60  0000 C CNN
 F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 6100 3700 60  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809192127_Microchip-Tech-25LC640T-I-SN_C5464.pdf" H 6100 3700 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809171606_onsemi-CAT25640VI-GT3_C153776.pdf" H 6100 3700 60  0001 C CNN
 F 4 "Included in KiCad" H 6100 3700 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/EEPROM_Microchip-Tech-25LC640T-I-SN_C5464.html" H 6100 3700 50  0001 C CNN "Link"
-F 6 "25LC640T-I/SN" H 6100 3700 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/EEPROM_onsemi-CAT25640VI-GT3_C153776.html" H 6100 3700 50  0001 C CNN "Link"
+F 6 "CAT25640VI-GT3" H 6100 3700 50  0001 C CNN "MPN"
 	1    6100 3700
 	1    0    0    -1  
 $EndComp
