@@ -1494,10 +1494,10 @@ U 1 1 58127124
 P 8300 4600
 F 0 "D2" V 8200 4500 50  0000 L CNN
 F 1 "Charge LED" V 8300 4100 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 8300 4600 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811061932_Everlight-Elec-17-21SURC-S530-A3-TR8_C72037.pdf" V 8300 4600 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_0805-Red-LED-Iv-61mcd-Typ-atIF-20mA_C72037.html" H 8300 4600 50  0001 C CNN "Link"
-F 5 "17-21SURC/S530-A3/TR8" H 8300 4600 50  0001 C CNN "MPN"
+F 2 "Custom 0602 footprint" V 8300 4600 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1810231514_Lite-On-LTST-S270KRKT_C125114.pdf" V 8300 4600 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-S270KRKT_C125114.html" H 8300 4600 50  0001 C CNN "Link"
+F 5 "LTST-S270KRKT" H 8300 4600 50  0001 C CNN "MPN"
 F 6 "Included in KiCad" H 8300 4600 50  0001 C CNN "3D-model"
 	1    8300 4600
 	0    -1   -1   0   
@@ -1508,10 +1508,10 @@ U 1 1 581287BE
 P 2250 4200
 F 0 "D1" H 2100 4250 50  0000 L CNN
 F 1 "Status LED" H 2100 4150 50  0000 L CNN
-F 2 "LED_SMD:LED_0805_2012Metric" V 2250 4200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1809192317_Everlight-Elec-17-21-BHC-XL2M2TY-3T_C72035.pdf" V 2250 4200 50  0001 C CNN
-F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Everlight-Elec-17-21-BHC-XL2M2TY-3T_C72035.html" H 2250 4200 50  0001 C CNN "Link"
-F 5 "17-21/BHC-XL2M2TY/3T" H 2250 4200 50  0001 C CNN "MPN"
+F 2 "Custom 1.6x0.6x1.1mm footprint" V 2250 4200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2105241210_EKINGLUX-E6X0602CWAY1UDA_C375469.pdf" V 2250 4200 50  0001 C CNN
+F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6X0602CWAY1UDA_C375469.html" H 2250 4200 50  0001 C CNN "Link"
+F 5 "E6X0602CWAY1UDA" H 2250 4200 50  0001 C CNN "MPN"
 F 6 "Included in KiCad" H 2250 4200 50  0001 C CNN "3D-model"
 	1    2250 4200
 	-1   0    0    -1  
