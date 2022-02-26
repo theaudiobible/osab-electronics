@@ -1498,7 +1498,7 @@ F 2 "Custom 0602 footprint" V 8300 4600 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/1810231514_Lite-On-LTST-S270KRKT_C125114.pdf" V 8300 4600 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_Lite-On-LTST-S270KRKT_C125114.html" H 8300 4600 50  0001 C CNN "Link"
 F 5 "LTST-S270KRKT" H 8300 4600 50  0001 C CNN "MPN"
-F 6 "Included in KiCad" H 8300 4600 50  0001 C CNN "3D-model"
+F 6 "NOT Included in KiCad" H 8300 4600 50  0001 C CNN "3D-model"
 	1    8300 4600
 	0    -1   -1   0   
 $EndComp
@@ -1512,7 +1512,7 @@ F 2 "Custom 1.6x0.6x1.1mm footprint" V 2250 4200 50  0001 C CNN
 F 3 "https://datasheet.lcsc.com/lcsc/2105241210_EKINGLUX-E6X0602CWAY1UDA_C375469.pdf" V 2250 4200 50  0001 C CNN
 F 4 "https://lcsc.com/product-detail/Light-Emitting-Diodes-LED_EKINGLUX-E6X0602CWAY1UDA_C375469.html" H 2250 4200 50  0001 C CNN "Link"
 F 5 "E6X0602CWAY1UDA" H 2250 4200 50  0001 C CNN "MPN"
-F 6 "Included in KiCad" H 2250 4200 50  0001 C CNN "3D-model"
+F 6 "NOT Included in KiCad" H 2250 4200 50  0001 C CNN "3D-model"
 	1    2250 4200
 	-1   0    0    -1  
 $EndComp
@@ -1531,16 +1531,16 @@ F 6 "BC847BLT1G" H 8900 2650 50  0001 C CNN "MPN"
 	1    0    0    -1  
 $EndComp
 $Comp
-L Switch:SW_SPST SW9
+L Switch:SW_Push SW9
 U 1 1 5953610D
 P 850 3050
 F 0 "SW9" H 850 3175 50  0000 C CNN
 F 1 "BUTTON_LOCK" H 850 2950 50  0000 C CNN
-F 2 "Button_Switch_SMD:SW_SPDT_PCM12" H 850 3050 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1910230933_C-K-PCM12SMTR_C221841.pdf" H 850 3050 50  0001 C CNN
-F 4 "Included in KiCad" H 850 3050 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Toggle-Switches_C-K-PCM12SMTR_C221841.html" H 850 3050 50  0001 C CNN "Link"
-F 6 "PCM12SMTR" H 850 3050 50  0001 C CNN "MPN"
+F 2 "EasyEDA footprint" H 850 3050 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2110111730_XKB-Connectivity-XKB5858-Z-F_C780036.pdf" H 850 3050 50  0001 C CNN
+F 4 "NOT Included in KiCad" H 850 3050 50  0001 C CNN "3D-model"
+F 5 "https://lcsc.com/product-detail/Push-Switches_XKB-Connectivity-XKB5858-Z-F_C780036.html" H 850 3050 50  0001 C CNN "Link"
+F 6 "XKB5858-Z-F" H 850 3050 50  0001 C CNN "MPN"
 	1    850  3050
 	0    -1   -1   0   
 $EndComp
