@@ -516,7 +516,7 @@ $Comp
 L Jumper:Jumper_2_Open BOOT1
 U 1 1 54D41AFF
 P 6750 3900
-F 0 "BOOT1" V 6750 4100 50  0000 C CNN
+F 0 "BOOT1 - REMOVE" V 6750 4100 50  0000 C CNN
 F 1 "BOOT" H 6750 3820 50  0001 C CNN
 F 2 "OSAB:Terminals_2_SMD" H 6750 3900 60  0001 C CNN
 F 3 "https://datasheet.lcsc.com/szlcsc/1912111437_MINTRON-MTP125-1102S1_C358684.pdf" H 6750 3900 60  0001 C CNN
@@ -667,16 +667,16 @@ F 3 "" H 10200 5050 60  0000 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L osab:TCS7191 U6
+L osab:PAM8302A U6
 U 1 1 54D59A57
 P 9750 3000
 F 0 "U6" H 9900 3200 60  0000 C CNN
-F 1 "TCS7191" H 9750 2450 60  0000 C CNN
+F 1 "PAM8302A" H 9750 2450 60  0000 C CNN
 F 2 "Package_SO:MSOP-8_3x3mm_P0.65mm" H 9800 3200 60  0001 C CNN
-F 3 "https://datasheetspdf.com/pdf-file/869014/TCS/TCS7191B/1" H 9800 3200 60  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/1809192050_Diodes-Incorporated-PAM8302AASCR_C113367.pdf" H 9800 3200 60  0001 C CNN
 F 4 "Included in KiCad" H 9750 3000 50  0001 C CNN "3D-model"
-F 5 "https://www.digchip.com/datasheets/quote.php?action=search&pn=TCS7191B" H 9750 3000 50  0001 C CNN "Link"
-F 6 "TCS7191B" H 9750 3000 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Audio-Power-OpAmps_Diodes-Incorporated-PAM8302AASCR_C113367.html" H 9750 3000 50  0001 C CNN "Link"
+F 6 "PAM8302AASCR" H 9750 3000 50  0001 C CNN "MPN"
 	1    9750 3000
 	1    0    0    -1  
 $EndComp
