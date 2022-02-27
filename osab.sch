@@ -2213,11 +2213,11 @@ U 1 1 5E040A60
 P 10600 4650
 F 0 "BATTERY1" H 10750 4800 50  0000 R CNN
 F 1 "Conn_01x02" H 10680 4551 50  0001 L CNN
-F 2 "OSAB:Terminals_2_SMD" H 10600 4650 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811051822_JST-Sales-America-S2B-XH-A-LF-SN_C157931.pdf" H 10600 4650 50  0001 C CNN
+F 2 "EasyEDA model" H 10600 4650 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2009131405_CAX-XH-2PWB_C722862.pdf" H 10600 4650 50  0001 C CNN
 F 4 "Included in KiCad" H 10600 4650 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_S2B-XH-A-LF-SN_JST-Sales-America-S2B-XH-A-LF-SN_C157931.html" H 10600 4650 50  0001 C CNN "Link"
-F 6 "S2B-XH-A(LF)(SN)" H 10600 4650 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_CAX-XH-2PWB_C722862.html" H 10600 4650 50  0001 C CNN "Link"
+F 6 "XH-2PWB" H 10600 4650 50  0001 C CNN "MPN"
 	1    10600 4650
 	1    0    0    -1  
 $EndComp
@@ -2242,11 +2242,11 @@ U 1 1 5E03F86A
 P 10450 3200
 F 0 "SPEAKER1" H 10300 3300 50  0000 L CNN
 F 1 "Conn_01x02" H 10250 2900 50  0001 L CNN
-F 2 "OSAB:Terminals_2_SMD" H 10450 3200 50  0001 C CNN
-F 3 "https://datasheet.lcsc.com/szlcsc/1811051822_JST-Sales-America-S2B-XH-A-LF-SN_C157931.pdf" H 10450 3200 50  0001 C CNN
+F 2 "EasyEDA model" H 10450 3200 50  0001 C CNN
+F 3 "https://datasheet.lcsc.com/lcsc/2009131405_CAX-XH-2PWB_C722862.pdf" H 10450 3200 50  0001 C CNN
 F 4 "Included in KiCad" H 10450 3200 50  0001 C CNN "3D-model"
-F 5 "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_JST-Sales-America_S2B-XH-A-LF-SN_JST-Sales-America-S2B-XH-A-LF-SN_C157931.html" H 10450 3200 50  0001 C CNN "Link"
-F 6 "S2B-XH-A(LF)(SN)" H 10450 3200 50  0001 C CNN "MPN"
+F 5 "https://lcsc.com/product-detail/Wire-To-Board-Wire-To-Wire-Connector_CAX-XH-2PWB_C722862.html" H 10450 3200 50  0001 C CNN "Link"
+F 6 "XH-2PWB" H 10450 3200 50  0001 C CNN "MPN"
 	1    10450 3200
 	1    0    0    -1  
 $EndComp
