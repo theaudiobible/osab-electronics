@@ -383,6 +383,7 @@
           "AVDD",
           "GND",
           "GNDA",
+          "Net-(BATTERY1-Pad1)",
           "VCC",
           "VDD"
         ],
