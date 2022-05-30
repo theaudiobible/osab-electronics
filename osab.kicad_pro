@@ -380,10 +380,7 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "GND",
-          "Net-(BATTERY1-Pad1)",
-          "VCC",
-          "VDD"
+          "Net-(BATTERY1-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -403,7 +400,11 @@
         "microvia_drill": 0.1,
         "name": "Power-thin",
         "nets": [
-          "AVDD"
+          "AVDD",
+          "GND",
+          "Net-(C13-Pad1)",
+          "VCC",
+          "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -423,8 +424,12 @@
         "microvia_drill": 0.1,
         "name": "Thin",
         "nets": [
+          "Net-(C1-Pad2)",
+          "Net-(C2-Pad2)",
           "Net-(C7-Pad2)",
           "Net-(CON2-Pad1)",
+          "Net-(R17-Pad2)",
+          "Net-(R18-Pad2)",
           "Net-(R24-Pad2)",
           "Net-(R25-Pad2)"
         ],
