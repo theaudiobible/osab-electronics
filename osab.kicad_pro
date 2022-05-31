@@ -120,7 +120,11 @@
         "use_height_for_length_calcs": true
       },
       "track_widths": [
-        0.0
+        0.0,
+        0.16,
+        0.25,
+        0.3,
+        0.4
       ],
       "via_dimensions": [
         {
@@ -380,8 +384,12 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
+          "GND",
           "Net-(BATTERY1-Pad1)",
-          "VCC"
+          "Net-(C17-Pad1)",
+          "Net-(C5-Pad1)",
+          "VCC",
+          "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -402,9 +410,7 @@
         "name": "Power-thin",
         "nets": [
           "AVDD",
-          "GND",
-          "Net-(C13-Pad1)",
-          "VDD"
+          "Net-(C13-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -427,9 +433,18 @@
           "Net-(C1-Pad2)",
           "Net-(C2-Pad2)",
           "Net-(C7-Pad2)",
+          "Net-(CON1-Pad2)",
+          "Net-(CON1-Pad3)",
+          "Net-(CON1-Pad5)",
+          "Net-(CON1-Pad7)",
           "Net-(CON2-Pad1)",
+          "Net-(CON2-Pad2)",
+          "Net-(D1-Pad1)",
+          "Net-(Q2-Pad3)",
           "Net-(R17-Pad2)",
           "Net-(R18-Pad2)",
+          "Net-(R20-Pad1)",
+          "Net-(R21-Pad1)",
           "Net-(R24-Pad2)",
           "Net-(R25-Pad2)"
         ],
