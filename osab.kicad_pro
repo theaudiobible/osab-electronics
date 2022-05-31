@@ -380,7 +380,8 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "Net-(BATTERY1-Pad1)"
+          "Net-(BATTERY1-Pad1)",
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -403,7 +404,6 @@
           "AVDD",
           "GND",
           "Net-(C13-Pad1)",
-          "VCC",
           "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
