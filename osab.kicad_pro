@@ -455,7 +455,12 @@
           "Net-(R32-Pad1)",
           "Net-(R33-Pad2)",
           "Net-(R37-Pad2)",
-          "Net-(R38-Pad1)"
+          "Net-(R38-Pad1)",
+          "Net-(R4-Pad1)",
+          "Net-(R5-Pad1)",
+          "Net-(R6-Pad1)",
+          "Net-(R7-Pad1)",
+          "Net-(R8-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
