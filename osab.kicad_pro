@@ -388,8 +388,7 @@
           "Net-(BATTERY1-Pad1)",
           "Net-(C17-Pad1)",
           "Net-(C5-Pad1)",
-          "VCC",
-          "VDD"
+          "VCC"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -439,6 +438,12 @@
           "Net-(CON1-Pad7)",
           "Net-(CON2-Pad1)",
           "Net-(CON2-Pad2)",
+          "Net-(CON2-Pad3)",
+          "Net-(CON2-Pad4)",
+          "Net-(CON3-PadA5)",
+          "Net-(CON3-PadA6)",
+          "Net-(CON3-PadA7)",
+          "Net-(CON3-PadB5)",
           "Net-(D1-Pad1)",
           "Net-(Q2-Pad1)",
           "Net-(Q2-Pad3)",
@@ -461,7 +466,8 @@
           "Net-(R5-Pad1)",
           "Net-(R6-Pad1)",
           "Net-(R7-Pad1)",
-          "Net-(R8-Pad1)"
+          "Net-(R8-Pad1)",
+          "VDD"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
