@@ -131,7 +131,7 @@
         0.16,
         0.25,
         0.3,
-        0.4
+        0.6
       ],
       "via_dimensions": [
         {
@@ -392,7 +392,6 @@
         "name": "Power",
         "nets": [
           "GND",
-          "Net-(BATTERY1-Pad1)",
           "Net-(C17-Pad1)",
           "Net-(C5-Pad1)",
           "VCC"
