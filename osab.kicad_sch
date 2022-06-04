@@ -6,7 +6,7 @@
 
   (title_block
     (title "OSAB - the Open Source Audio Bible player")
-    (date "2022-06-03")
+    (date "2022-06-04")
     (rev "7")
     (company "theaudiobible.org")
     (comment 1 "Copyright (C) 2011-2022 Theophilus")
@@ -6713,7 +6713,7 @@
     (property "Value" "Conn_01x02" (id 1) (at 271.78 86.36 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal" (id 2) (at 276.86 78.74 0)
+    (property "Footprint" "OSAB:HYCW02-WF02-125B" (id 2) (at 276.86 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "https://datasheet.lcsc.com/lcsc/2201261500_HOAUC-HYCW02-WF02-125B_C2939022.pdf" (id 3) (at 276.86 78.74 0)
@@ -8010,7 +8010,7 @@
       (reference "SP1") (unit 1) (value "8Ω SPEAKER") (footprint "OSAB:NULL")
     )
     (path "/00000000-0000-0000-0000-00005e03f86a"
-      (reference "SPEAKER1") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal")
+      (reference "SPEAKER1") (unit 1) (value "Conn_01x02") (footprint "OSAB:HYCW02-WF02-125B")
     )
     (path "/00000000-0000-0000-0000-0000543f883c"
       (reference "SW1") (unit 1) (value "PPP") (footprint "OSAB:SW_SPST_TL3342")
