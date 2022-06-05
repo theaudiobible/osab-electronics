@@ -12,3 +12,4 @@ osab
 *.step
 *.stl
 *.kicad_prl
+outputs/
