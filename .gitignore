@@ -6,3 +6,10 @@ osab
 *.swp
 *rescue.lib
 *cache*
+*.pdf
+*.svg
+*.drl
+*.step
+*.stl
+*.kicad_prl
+outputs/
