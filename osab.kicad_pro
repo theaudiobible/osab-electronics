@@ -515,8 +515,8 @@
       "idf": "",
       "netlist": "osab.net",
       "specctra_dsn": "",
-      "step": "",
-      "vrml": ""
+      "step": "osab.step",
+      "vrml": "osab.wrl"
     },
     "page_layout_descr_file": ""
   },
