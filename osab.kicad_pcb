@@ -3567,9 +3567,9 @@
     (pad "MP4" smd roundrect locked (at 7.34 -6.4) (size 1.2 1.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 2 "GND") (pinfunction "MP4") (pintype "unspecified") (tstamp 71040f39-f5b4-480a-8822-bbaabca74c79))
     (model "${KIPRJMOD}/3D/TF-01A.stp"
-      (offset (xyz 0 0 0))
+      (offset (xyz 7.7 -7.5 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 0 -90))
     )
   )
 
@@ -5185,10 +5185,10 @@
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp 84051ab2-4947-4d13-9c0a-bdfee6186f3d))
     (pad "S1" thru_hole oval locked (at -4.32 -3.13 180) (size 1 2.1) (drill oval 0.6 1.7) (layers *.Cu *.Mask)
       (net 2 "GND") (pinfunction "SHIELD") (pintype "passive") (tstamp fc1f9f0d-2ffa-453d-9bed-27dc5d92dc0a))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_HRO_TYPE-C-31-M-12.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D/TYPE-C-31-M-12.step"
+      (offset (xyz -4.48 -3.65 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
