@@ -5276,6 +5276,11 @@
       (net 65 "Net-(R34-Pad1)") (pinfunction "5") (pintype "passive") (tstamp 663d3097-ecc9-459d-983a-a9d04c55fbd6))
     (pad "6" smd roundrect locked (at 0.9 3.55 90) (size 1.5 1) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 45 "Net-(R1-Pad2)") (pinfunction "6") (pintype "passive") (tstamp 9a3d1e5b-4163-456c-986a-0d495cff4a1f))
+    (model "${KIPRJMOD}/3D/xkb5858-z-f.stp"
+      (offset (xyz -0.1 -1.85 3))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 -90 0))
+    )
   )
 
   (gr_arc (start 155.5 136.5) (mid 155.207107 137.207107) (end 154.5 137.5) (layer "Edge.Cuts") (width 0.1) (tstamp 10b14a86-9b6d-4242-a17b-c984f0169e4d))
