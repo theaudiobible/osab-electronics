@@ -34,6 +34,10 @@ TYPE-C-31-M-12
 --------------
 curl -o ${OSAB_DIR}/osab-electronics/3D/TYPE-C-31-M-12.step https://raw.githubusercontent.com/ai03-2725/Type-C.pretty/master/HRO%20%20TYPE-C-31-M-12.step
 
+XKB5858-Z-F
+-----------
+Download the STEP AP242 model from https://traceparts.com/ and place xkb5858-z-f.stp in ${OSAB_DIR}/osab-electronics/3D/
+
 
 Kicad 5 setup in Linux
 ======================
